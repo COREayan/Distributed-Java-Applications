@@ -1,0 +1,6 @@
+# Ignore ZooKeeper distribution
+apache-zookeeper-*/ 
+**/apache-zookeeper-*/
+# Ignore ZooKeeper binaries
+Section_2_Cluster_Coordination_Service_and_Distributed_Algorithms/apache-zookeeper-3.9.3-bin/
+**/apache-zookeeper-3.9.3-bin/
