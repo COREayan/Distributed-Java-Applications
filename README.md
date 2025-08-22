@@ -28,6 +28,7 @@ The goal of this repo is to **practice concepts from scratch**, strengthen my un
 Distributed-Java-Applications/
 │── Section_2_Cluster_Coordination_Service_and_Distributed_Algorithms/
 │── README.md
+```
 
 ---
 
