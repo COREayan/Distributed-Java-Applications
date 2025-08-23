@@ -74,3 +74,17 @@
 - Executes **custom Znode watchers & triggers** in **order**.  
 
 ---
+
+### Watchers and Triggers
+- We can register a watcher when we call the methods.
+  - getChildren(..)
+  - getData(..)
+  - exists(..)
+- The watcher allows us to get a notification when a change happens.
+- getChildren(.., watcher) - Get notified when the list of a znode's children changes.
+- exists(znodePath, watcher) - Get notified if a znode gets deleted or created.
+- getData(znodePath, watcher) - Get notified if a znode's data gets modified.
+- public ZooKeeper(String connectString, int sessionTimeout, Watcher watcher) - Also takes a watcher.
+- Watchers registered with getChildren(), exists() and getData() are one-time triggers
+- If we want to get future notifications, we need to register the watcher again.
+- 
