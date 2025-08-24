@@ -87,4 +87,3 @@
 - public ZooKeeper(String connectString, int sessionTimeout, Watcher watcher) - Also takes a watcher.
 - Watchers registered with getChildren(), exists() and getData() are one-time triggers
 - If we want to get future notifications, we need to register the watcher again.
-- 
