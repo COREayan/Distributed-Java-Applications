@@ -80,4 +80,3 @@ Parallelizing TF-IDF
   - Data Model (Task, Result)
 - Calculation of the Term Frequencies for all the search terms in the allocated documents
   - Using the TF-IDF algorithm
-- 
