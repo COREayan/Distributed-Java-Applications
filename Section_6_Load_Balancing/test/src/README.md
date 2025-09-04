@@ -73,4 +73,27 @@
   - Type of requested data
   - HTTP method
   - Browser cookies
-- 
+
+### High Availability Proxy(HAProxy)
+- HAProxy - Reliable, High Performance TCP/HTTP Load Balancer
+- Free and open source, software load balancer that powers many distributed systems, web applications and web sites.
+- It is easy to set up
+- HAproxy has a lot of very advanced and powerful features, critical for high performance production systems
+
+### HAProxy - Supported Platforms
+- Officially Supports only Linux distributions
+- We will learn how to run it locally on any platform(including Windows and MacOS) in a later lecture
+
+### HAProxy - Configuration
+- HAProxy's logic comes from a config file(haproxy.cfg)
+    - Predefined location /usr/local/etc/haproxy/haproxy.cfg
+    - Command line: haproxy-f haproxy.cfg
+
+### HAProxy- Configuration File Structure
+- global section - Parameters for the entire load balancing process(OS specific)
+- Proxies section - Parameters for proxying incoming traffic to our backend cluster
+    - defaults - optional parameters for all proxies
+    - frontend - how to handle incoming traffic
+    - backend - servers to proxy the incoming traffic
+    - listen - optional frontend + backend
+
