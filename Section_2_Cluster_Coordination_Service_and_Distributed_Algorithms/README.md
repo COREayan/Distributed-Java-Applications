@@ -94,4 +94,9 @@
 -  A large number of nodes waiting for an event.
 -  When the event happens all nodes get notified and they all wake up.
 -  Only one node can "succeed".
-- ️ Indicates bad design, can negatively impact the performance and can completely freeze the cluster.  
+- ️ Indicates bad design, can negatively impact the performance and can completely freeze the cluster.
+
+### Resources
+- https://zookeeper.apache.org/
+- https://highscalability.com/zookeeper-a-reliable-scalable-distributed-coordination-syste/
+- https://reintech.io/blog/using-apache-zookeeper-for-cluster-coordination-in-hadoop
