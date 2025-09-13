@@ -96,7 +96,11 @@
 -  Only one node can "succeed".
 - ️ Indicates bad design, can negatively impact the performance and can completely freeze the cluster.
 
-### Resources
-- https://zookeeper.apache.org/
-- https://highscalability.com/zookeeper-a-reliable-scalable-distributed-coordination-syste/
-- https://reintech.io/blog/using-apache-zookeeper-for-cluster-coordination-in-hadoop
+### 📚 Resources
+
+- [🐘 Apache ZooKeeper (Official Site)](https://zookeeper.apache.org/) – Official homepage with downloads, docs, and news.  
+- [📈 High Scalability: ZooKeeper](https://highscalability.com/zookeeper-a-reliable-scalable-distributed-coordination-syste/) – Article on ZooKeeper’s reliability and scalability.  
+- [🔗 Reintech Blog: Using ZooKeeper in Hadoop](https://reintech.io/blog/using-apache-zookeeper-for-cluster-coordination-in-hadoop) – Practical guide on ZooKeeper for cluster coordination.  
+- [📘 Apache Wiki: ZooKeeper Index](https://cwiki.apache.org/confluence/display/ZOOKEEPER/Index) – Centralized wiki for community notes and guides.  
+- [📄 ZooKeeper Documentation](https://zookeeper.apache.org/doc/current/index.html) – Latest version docs with API references and tutorials.  
+
