@@ -74,3 +74,8 @@
 - Persistence allows new consumers to join and consumer older messages
 - Consumers that failed in the process of reading/processing a message to retry
 - Failed Brokers can recover very fast
+
+### Articles
+- https://kafka.apache.org/documentation/ 
+- https://en.wikipedia.org/wiki/Apache_Kafka
+- https://aws.amazon.com/what-is/apache-kafka/
