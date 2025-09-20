@@ -27,6 +27,11 @@ The goal of this repo is to **practice concepts from scratch**, strengthen my un
 ```bash
 Distributed-Java-Applications/
 │── Section_2_Cluster_Coordination_Service_and_Distributed_Algorithms/
+│── Section_3_Cluster_Management_Registration_and_Discovery/
+│── Section_4_Network_Communication/
+│── Section_5_Building_Distributed_Document_Search/
+│── Section_6_Load_Balancing/
+│── Section_7_Distributed_Message_Brokers/
 │── README.md
 ```
 
